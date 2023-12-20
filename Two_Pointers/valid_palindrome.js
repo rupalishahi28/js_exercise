@@ -10,7 +10,11 @@ export function isPalindrome(s) {
     return true;
 }
 
-// The time complexity is O(n), where n is the number of characters in the string. However, our algorithm will only run 
-// (n/2) times, since two pointers are traversing toward each other.
+/** TIME COMPLEXITY
+ * The time complexity is O(n), where n is the number of characters in the string. However, our algorithm will only run 
+(n/2) times, since two pointers are traversing toward each other.
+ */
 
-// The space complexity is O(1), since we use constant space to store two indexes.
+/** SPACE COMPLEXITY
+ * The space complexity is O(1), since we use constant space to store two indexes.
+ */
