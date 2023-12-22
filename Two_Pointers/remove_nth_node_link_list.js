@@ -20,7 +20,7 @@ const removeNthLastNode = (head, n) => {
 
     // At this point left pointer points to (n-1)th element
     // So link it to next to next element of left
-    left.next = left.next.next;``
+    left.next = left.next.next;
 
     return head;
 }
